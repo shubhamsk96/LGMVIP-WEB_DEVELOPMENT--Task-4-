@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button {
+    font-family: "Poppins", sans-serif;
+}
+
+.contanier {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contanier__calcu {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 1rem;
+    width: 23%;
+}
+
+.calcu__input {
+    height: 86px;
+}
+
+#history {
+    font-size: 1rem;
+}
+
+#output {
+    font-size: 3rem;
+    overflow: auto;
+}
+
+#history-value,
+#output-value {
+    text-align: right;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.buttons {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    font-size: 2rem;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.sign {
+    background-color: gainsboro;
+}
+
+.btn0 {
+    grid-column: 1/4;
+    justify-self: center;
+}
+
+.blue {
+    background-color: #20b2aa;
+}
+
+.orange {
+    background-color: #ffa500;
+}
+
+.pink {
+    background-color: #f08080;
+}
+
+.blue2 {
+    background-color: #7d93e0;
+}
+
+.purple {
+    background-color: #9477af;
+}
